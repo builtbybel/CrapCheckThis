@@ -7,7 +7,7 @@ i had this slightly odd idea: the engines behind two of my more popular apps are
 <img width="886" height="639" alt="image" src="https://github.com/user-attachments/assets/33e0f68d-6e98-4be6-b867-f14a3ddd0775" />
 
 
-i pulled the read-only parts together and made them public as a tiny Windows crap check report. CrapCheckThis looks at the machine, tells you what stands out and then simply stops. no fix button, no magic optimizer stuff.
+i pulled the read-only parts together and made them public as a tiny Windows crap check report. CrapCheckThis looks at the machine, tells you what stands out and then simply stops. so no fix button here and no magic optimizer stuff
 
 ## what it checks
 
@@ -23,7 +23,7 @@ extra packs are merged at runtime. if an imported pack contains the same named s
 
 the packs are data, not code. they cannot launch PowerShell, run EXEs, change the registry, uninstall apps or delete files.
 
-**CrapCheckThis can look. it cannot touch.**
+**CrapCheckThis can look, but it cannot touch!**
 
 
 ---
