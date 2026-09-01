@@ -1,6 +1,6 @@
 # CrapCheckThis
 
-> **A read-only Windows audit powered by signatures**
+> **Windows has enough tools promising to “fix everything.” CrapCheckThis fixes absolutely nothing 😄 Just a  read-only Windows audit powered by signatures**
 
 i had this slightly odd idea: the engines behind two of my more popular apps are already fed almost completely by signature files. so why keep the check part locked inside a fixer and a cleaner?
 
