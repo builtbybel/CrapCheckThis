@@ -68,6 +68,18 @@ don't copy just the exe. old builds without handoff support won't understand the
 
 CrapCheckThis itself is c# / winforms on .net framework 4.8. a small window with a list still gets the job done
 
+### updating the bundled apps
+
+1. close CrapCheckThis and the companion app. back up the companion's folder first.
+2. get the latest **handoff-compatible** portable release from [CrapFixer releases](https://github.com/builtbybel/CrapFixer/releases) or [FluentCleaner releases](https://github.com/builtbybel/FluentCleaner/releases). for FluentCleaner, pick **classic**, not winui 3.
+3. unpack the complete app into its folder above, replacing program files. keep your personal settings, custom signatures and extensions. don't copy only the exe or accidentally add another nested app folder.
+4. reopen CrapCheckThis, scan and use **review**. no installation or reconnecting required.
+
+the executable should end up at `apps\CrapFixer\CrapFixer.exe` or `apps\FluentCleaner.Classic\FluentCleaner.Classic.exe`. avoid leaving an older companion exe directly next to CrapCheckThis.exe: that location is checked before the apps folder.
+
+**the wiring depends on the handoff interface, not the version number.** newer builds must keep the command-line switches and json selection format. an update that removes or changes that interface can break the handoff; the same exe name alone isn't enough. if a release doesn't confirm CrapCheckThis support, stick with the bundled build for now.
+
+
 ## my tiny windows maintenance universe
 
 CrapCheckThis spots it. CrapFixer handles the settings and apps. FluentCleaner Classic takes out the trash
